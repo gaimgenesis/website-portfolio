@@ -1,0 +1,33 @@
+﻿.Mainpage {
+	background-color:#4abdac;
+	height: 500px;
+	width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 20px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.5); /* Black w/ opacity */
+  border-radius: 50%;
+	cursor:pointer;
+
+}
+
+.profilephoto:hover .overlay {
+  opacity: 1;
+}
+
+.count
+{
+  line-height: 50px;
+  color:black;
+  margin-left:30px;
+}
